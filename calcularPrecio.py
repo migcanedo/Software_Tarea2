@@ -4,8 +4,6 @@ Created on 2 oct. 2017
 @author: Miguel Canedo 13-10214
 @author: Carlos Perez 13-11089
 '''
-from datetime import date, time
-from tarifa import Tarifa
 from _datetime import timedelta
 
 '''
@@ -92,4 +90,3 @@ def calcularPrecio(tarifa, tiempoDeServicio):
         
         
         return precioPrimerDia + precioSemana + precioFin + precioUltimoDia       # Total a pagar.
-
