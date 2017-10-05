@@ -7,5 +7,8 @@ Created on 2 oct. 2017
 
 class Tarifa:
     def __init__(self, habiles, finde):
+        assert(habiles >= 0 and finde >= 0)
+        
+        
         self.habiles = habiles
         self.finde = finde
